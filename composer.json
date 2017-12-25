@@ -1,0 +1,36 @@
+{
+  "name": "lintrue/bootstrap",
+  "type": "lintrue-static",
+  "license": "MIT",
+  "description": "deploy twbs/bootstrap",
+  "keywords": [
+    "css",
+    "js",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "static"
+  ],
+  "config": {
+    "process-timeout": 600,
+    "preferred-install": "dist",
+    "github-protocols": [
+      "https"
+    ]
+  },
+  "authors": [
+    {
+      "name": "lintrue",
+      "email": "jiamisslin@gmail.com"
+    }
+  ],
+  "require": {
+    "lintrue/static-installer": "^v1.0"
+  },
+  "extra": {
+    "static-path": "public/static/bootstrap"
+  }
+}
